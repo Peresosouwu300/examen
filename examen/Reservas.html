@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pasos ligeros</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+          body {background: linear-gradient(to right, #ffffff, #ffffff)}
+          header {background-color: #3454FF; color: white; padding: 20px}
+          footer {background-color: #E173FF; color: white; text-align: center; padding: 10px; margin-top: 40px}
+          .card img {height: 200px; object-fit: cover}
+          nav a {margin-right: 10px;}
+          section {padding: 40px 20px;}
+          .logo {height: 40px; margin-right: 10px}
+        </style>
+      </head>
+      <body>
+        <header class="text-center">
+            <div class="d-flex justify-content-center align-items-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg" class="logo" alt="Bandera Corea del Sur">
+                <h1>PASOS LIGEROS</h1>
+              </div>
+          <nav class="nav justify-content-center">
+            <a class="nav-link text-white" href="turismo.html">Inicio</a>
+            <a class="nav-link text-white" href="Lugares.html">Lugares</a>
+            <a class="nav-link text-white" href="Tours.html">Tours</a>
+            <a class="nav-link text-white" href="Reservas.html">Reservar</a>
+          </nav>
+        </header>
+        <section id="formulario">
+            <div class="container">
+              <h2 class="text-center">Reserva tu experiencia</h2>
+              <div class="formulario-reserva">
+                <form>
+                  <div class="mb-3">
+                    <label class="form-label">Nombre completo</label>
+                    <input type="text" class="form-control" placeholder="Ingresa tu nombre completo" required>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" placeholder="nombre@correo.com" required>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Destino deseado</label>
+                    <select class="form-select" required>
+                      <option value="">Selecciona una opción</option>
+                      <option>Tour por Seúl</option>
+                      <option>Isla Jeju</option>
+                      <option>Paquete completo</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Comentarios</label>
+                    <textarea class="form-control" rows="4" placeholder="Cuéntanos tus preferencias o dudas"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">Enviar Reserva</button>
+                </form>
+              </div>
+            </div>
+          </section>
+      </body>
+      <footer>
+        <p>© 2025 Turismo Corea, Pasos Ligeros | Contacto: info@cusco.pe</p>
+        <p>Autores: Katiuska Patilla de la Cruz, Angie sulema Montoya Ramos</p>
+      </footer>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
